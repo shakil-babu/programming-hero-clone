@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.carousel-inner{
+    background-color: #622bed;
+    display: flex;
+    flex-direction: column;
+    height: 89vh;
+}
+.hero-section{
+    margin-top: 75px;
+}
+
+
+.info{
+    margin-top: 100px;
+}
+.info h1{
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+}
+.info p{
+    color: #fff;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.col-md-5 img {
+    height: 480px;
+    margin-top: 30px !important;
+    margin-left: 10px;
+}
+.btn-danger {
+    background: linear-gradient(335.64deg,#ff589b -19.22%,#ff136f 118.87%);
+    color: #fff;
+    border: none;
+}
+.btn-danger:hover {
+    background: linear-gradient(45deg,#ff35b4,#ff193f);
+}
+.btn-area{
+    display: flex;
+}
+.btn-fancy {
+    border-radius: 40px !important;
+    position: relative;
+    white-space: nowrap;
+    padding: 15px 65px 15px 42px !important;
+    position: relative;
+}
+.btn-fancy span{
+    background: #fff;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 7px;
+    right: 10px; 
+}
+.arrow{
+    font-size: 40px;
+    color: tomato;
+}
+
+.navbar-toggler-icon{
+    color: #fff !important;
+}
+
+@media screen and (max-width: 768px){
+    .image-box{
+        display: none;
+    }
+    .info h1{
+        font-size: 30px;
+    }
+   
+}

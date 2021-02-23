@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.area-card{
+    background-color: #6126ec;
+}
+
+.login-register-card{
+    background-color: #fff;
+    border-radius: 25px;
+}
+.login-register-title{
+    color: #6644f7;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-control{
+    padding: 22px !important;
+    border-radius: 59px !important;
+}
+.check-title{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.582);
+    font-family: 'Poppins', sans-serif;
+}
+.checkbox{
+    outline: none;
+    border:1px solid rgba(0, 0, 0, 0.582) !important;
+}
+
+.forgot{
+    background-color: transparent;
+color: #321fdb;
+font-family: 'Poppins', sans-serif;
+font-weight: 700;
+font-size: 15px;
+text-decoration: none;
+
+}
+.forgot:hover{
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+@media screen and (max-width:568px){
+    .login-data-flex{
+        flex-direction: column;
+    }
+}
+
+/* ================================================================= common area */
+.common-area{
+    border-top: 1px solid hsla(0,0%,100%,.2);
+    background-color: #6126ec;
+}
+
+.about-title{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+}
+
+.content-common{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+}

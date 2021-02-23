@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.content-card{
+    border-radius: 16px;
+    font-weight: 300;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0,0,0,.1) !important;
+    padding: 1rem;
+}
+
+.course-title{
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 58px;
+    color: #000;
+}
+
+.course-outline{
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.milestone-title{
+    font-weight: 500 !important;
+    font-size: 18px;
+    color: #1e1e1e;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+
+}
+.milestone-btn{
+    background:transparent;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.milestone-icon{
+
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.54);
+    text-align: center;
+}

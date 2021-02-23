@@ -1,0 +1,38 @@
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template: 10px;
+}
+.member-card{
+    background-color: rgb(255, 255, 255);
+}
+
+.member-name{
+    margin-top: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #0f0f0f;
+}
+.member-card p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+color: #0f0f0f;
+}
+
+@media screen and (max-width:992px){
+    .grid-layout{
+        grid-template-columns:repeat(3, 1fr);
+    }
+}
+@media screen and (max-width:768px){
+    .grid-layout{
+        grid-template-columns:repeat(2, 1fr);
+    }
+}

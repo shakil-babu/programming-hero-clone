@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.success-area {
+    background: #f6f6f6;
+}
+
+.grid-showcase{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.single-success-card{
+    background: #fff;
+}
+
+.success-img{
+    width: 40%;
+    height: 60%;
+}
+.success-opinion{
+    font-family: 'Poppins', sans-serif;
+    color: #0f122f;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+}
+
+.show-more-btn{
+    color: #ff136f;
+    text-decoration: underline;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color:transparent;
+}
+.identity-desc, .batch{
+    height: 60px;
+}
+.person-info h4{
+    padding-top: 12px;
+    font-size: 16px;
+    font-family: "Poppins","Hind Siliguri",sans-serif;
+    font-weight: 500;
+}
+.person-info p{
+    margin-top: -11px;
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 13px;
+    font-family: "Poppins","Hind Siliguri",sans-serif;
+    font-weight: 300;
+}
+.batch{
+    width: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.batch p{
+    line-height: 60px;
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 15px;
+    font-family: "Poppins","Hind Siliguri",sans-serif;
+    font-weight: 500;
+}
+
+@media screen and (max-width:992px){
+    .grid-showcase{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media screen and (max-width:768px){
+    .single-img-area{
+        flex-direction: column;
+    }
+    .single-img-area img{
+        width: 100%;
+    }
+}
+
+.pagination button{
+    border: none;
+    font-family: "Poppins","Hind Siliguri",sans-serif;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin-right: 10px;
+    background-color: #6047ec;
+    color: #fff;
+    font-size: 10px;
+}

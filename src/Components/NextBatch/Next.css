@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.next-area{
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 15px 20px 0 rgba(55,84,170,.10196078431372549);
+    border-radius: 20px;
+    padding: 3rem;
+}
+.next-area h2{
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.enroll-area{
+    background-color: #622bed;
+    box-shadow: 0 4px 20px rgba(0,0,0,.1) !important;
+    padding: 5px;
+    border-radius: 40px !important;
+}
+.enroll-title{
+    font-weight: 700;
+    margin-top: 16px; 
+    margin-left: 15px;
+}
+.enroll-container{
+    margin-top: 20px;
+}
+
+@media screen and (max-width:992px){
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .enroll{
+        flex-direction: column !important;
+    }
+    .enroll-btn-flex{
+        margin-top: 0 !important;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.learn-area{
+    margin-top: 100px !important;
+}
+.learn-area h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.lecture-area{
+    box-shadow: 0 4px 20px rgba(0,0,0,.1) !important;
+    padding: 0px 30px 28px !important;
+    border-radius: 16px;
+    font-weight: 300;
+    background-color: #fff;
+}
+
+.learn-area .web {
+    border-radius: 16px;
+    height: 220px;
+    margin-top: 35px;
+ 
+}
+
+.enroll-card-lecture-info img{
+    height: 55px;
+}
+.enroll-card-lecture-info h4{
+    margin-top: 8px;
+    font-weight: 700;
+}
+.enroll-card-lecture-info h5{
+    color: #636363;
+    font-size: 16px;
+}
+
+.data-box{
+    margin: 2px;
+    margin-bottom: 2px;
+    background: #fff;
+    box-shadow: 0 10px 40px rgba(0,0,0,.05);
+    align-items: center;
+    height: 30px;
+    padding: 15px 10px;
+    border-radius: 15px;
+}
+
+.data-box img{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+
+
+}
+.data-box h4{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+.price{
+    font-size: 36px;
+    line-height: 54px;
+    color: #303030;
+    }
+
+    .payment img{
+        height:25px;
+        margin-right: 10px;
+        margin-top: 0 !important;
+    }
+
+    .payment h5{
+        font-weight: 700;
+        font-size: 16px;
+        margin-left: 15px !important;
+    }
+.bkash-option{
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.grid-box{
+    display: grid ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 14px;
+    font-weight: 500;
+}
+.color-icon{
+   font-size: 120px;
+   color:#ff287c;
+   margin-top: -44px;
+margin-right: 10px;
+}
+.grid-box p{
+    font-weight: 500;
+    line-height: 25px;
+}
+
+@media screen and (max-width:992px){
+    .data-area{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .data-box img{
+        margin-bottom: 0 !important;
+    }
+    .learn-area .web{
+        width: 100%;
+    }
+    .grid-box{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:550px){
+    .lecture-card{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .payment{
+        flex-direction: column;
+    }
+    .grid-box{
+        grid-template-columns:1fr;
+    }
+}

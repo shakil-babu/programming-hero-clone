@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.review-section{
+    background-color: #f5f7ff;
+}
+
+.review-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+.review-card{
+    min-height: 300px;
+    box-shadow: 1px 3px 3px rgba(0,0,0,.02);
+    border-radius: 5px;
+    position: relative;
+    background: #fff;
+    width: 100%;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.img-area img{
+    width: 95px;
+    height: 95px;
+    object-fit: cover;
+    position: absolute;
+    top: -48px;
+    border: 10px solid #fff;
+    background-color: #fff;
+    border-radius: 50%;
+    left: calc(50% - 47px);
+    z-index: 1;
+}
+.review-card h5{
+    margin-top: 10px;
+    margin-bottom: 12px;
+    text-transform:capitalize;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.review-content{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8c8c8c !important;
+    font-family: "Poppins","Hind Siliguri",sans-serif;
+}
+
+@media screen and (min-width: 992px) {
+  .swiper-container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 568px) {
+  .swiper-container {
+    width: 100%;
+  }
+}
+@media screen and (min-width:230px) {
+  .swiper-container {
+    width: 100%;
+  }
+}

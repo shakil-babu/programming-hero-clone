@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.support-area{
+    background-color: #f5f7ff !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.course-info{
+    background-color: #fff;
+    max-width: 564px;
+    width: 100%;
+    box-shadow: 0 5.64912px 14.1228px rgba(0,0,0,.1) !important;
+    border-radius: 10px;
+}
+
+.course-icon{
+    cursor: pointer;
+color: #6c6c6c;
+font-family: Hind Siliguri;
+font-style: normal;
+font-weight: 500;
+font-size:50px;
+line-height: 29px;
+}
+.course-box{
+    cursor: pointer;
+}
+.course-box h5{
+    margin-top: 18px;
+    font-size: 17px;
+    cursor: pointer;
+    color: #6c6c6c;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.grid-showcase{
+    display: grid ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.course-info-box{
+    background: #fff;
+    box-shadow: 0 30px 80px 0 rgba(55,84,170,.10196078431372549);
+    border-radius: 16px;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+}
+.course-info-box img{
+    height: 107px;
+    width: 107px;
+    margin-right: 15px;
+}
+.course-info-box h3{
+    font-size: 17px;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.course-info-box p{
+    color: #383838;
+    font-family: "Poppins","Hind Siliguri",sans-serif;
+    font-size: 14px;
+}
+.red-border{
+    
+    border-bottom: 5px solid #ff136f !important;
+}
+.red-color{
+    color: #ff136f !important;
+}
+
+.number{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 700;
+    color: #ced2d8 ;
+    margin-right: 20px;
+}
+
+@media screen and (max-width:768px){
+    .grid-showcase{
+        grid-template-columns: 1fr;
+    }
+    .course-info-box{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:500px){
+    .course-box .course-icon{
+        font-size: 25px;
+    }
+    .course-box h5{
+        font-size: 14px;
+    }
+}
